@@ -255,7 +255,7 @@ a.gplus:active { background-position: -80px -80px; }
 /********** Sections **********/
 
 section {
-  padding: 20px;
+  padding: 14px;
   background: white;
 }
 
@@ -303,3 +303,45 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+
+
+.featured { 
+  width: 66%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.archive {
+  width: 32%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+
+.Deals { 
+  width: 32%;
+  float: left;
+  margin-right: 20px ;
+}
+
+.Skaters {
+  width: 32%;
+  float: left;
+}
+
+.heels { 
+  width: 32%;
+  float: right;
+}
+
+
+.clear {
+  clear: both;
+}
+
+#details .border_right {
+  float: left;
+  width: 33%;
+  padding-left: 10px;
+}
